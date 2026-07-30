@@ -19,7 +19,7 @@ export function OnboardingLogoutButton() {
     <Button
       variant="ghost"
       size="sm"
-      className="fixed right-4 top-4 z-50 text-muted-foreground hover:text-destructive sm:right-6 sm:top-6 lg:right-12 lg:top-16"
+      className="fixed right-8 top-8 z-50 text-muted-foreground hover:text-destructive"
       style={{ WebkitAppRegion: "no-drag" } as React.CSSProperties}
       onClick={logout}
     >
